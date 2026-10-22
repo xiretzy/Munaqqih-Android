@@ -1,7 +1,7 @@
 # Munaqqih
 
 **On-device data cleaning and quality assessment for Android, with Arabic-aware processing.**
-Graduation Project — Group 2.
+Graduation Project — UQU-DS-2026-M04.
 
 ## Why Munaqqih?
 
