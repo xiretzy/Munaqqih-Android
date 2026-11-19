@@ -17,8 +17,8 @@ object PythonBridge {
     fun loadFile(path: String) = call("load_file", path)
     fun analyzeMissing() = call("analyze_missing")
     fun runIsolationForest(column: String) = call("run_isolation_forest", column)
-    fun generateFile(rows: Int, folder: String) = call("generate_file", rows, folder)
-    fun benchmarkOnce(path: String) = call("benchmark_once", path)
+    fun generateFile(rows: Int, cols: Int, folder: String) = call("generate_file", rows, cols, folder)
+    fun benchmarkOnce(path: String, allNumeric: Boolean) = call("benchmark_once", path, allNumeric)
     fun versions() = call("versions")
 }
 

@@ -50,12 +50,13 @@ chaquopy {
         version = "3.10"
 
         // لازم يكون عندك Python 3.10 على جهازك. لو ما لقاه، حط المسار هنا:
-        // buildPython("C:/Users/xiretzy/AppData/Local/Programs/Python/Python310/python.exe")
+        // buildPython("C:/Users/YOU/AppData/Local/Programs/Python/Python310/python.exe")
 
         pip {
-            install("numpy")
-            install("pandas")
-            install("scikit-learn")
+            // لقياس حجم APK بدون المكتبات: علّق الأسطر الثلاثة وابنِ مرة ثانية
+            install("numpy==1.26.2")
+            install("pandas==2.1.3")
+            install("scikit-learn==1.3.2")
         }
     }
 }

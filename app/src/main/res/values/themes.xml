@@ -1,3 +1,5 @@
 <resources>
-    <style name="Theme.Prototype" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Prototype" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/paper</item>
+    </style>
 </resources>
